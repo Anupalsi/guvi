@@ -1,2 +1,2 @@
-s=str(raw_input())
+s=raw_input()
 print(len(s))
