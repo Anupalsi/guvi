@@ -1,8 +1,8 @@
 print(“enter the number”)
 a=int(raw_input())
 if(a>0):
-	print("number is positive")
+	print("positive")
 elif(a==0):
-	print("number is zero")
+	print("zero")
 else:
-	print("number is nagative")
+	print("nagative")
