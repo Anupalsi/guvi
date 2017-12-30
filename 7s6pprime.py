@@ -1,4 +1,4 @@
-no=123
+no=raw_input()
 flag=0
 for i in range(2,no):
 	if(no%i == 0):
