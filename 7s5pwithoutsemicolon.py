@@ -1,2 +1,2 @@
-string="hello;hi"
+string=raw_input()
 print(string.replace(';',' '))
