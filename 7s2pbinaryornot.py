@@ -1,4 +1,4 @@
-b="11500"
+b=raw_input()
 flag=0
 for c in b:
 	if((c == '0') or (c == '1')):
