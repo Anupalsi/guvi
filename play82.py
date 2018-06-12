@@ -16,4 +16,5 @@ else:
         me=int(input("enter the"+str(i)+"no"))
         u=b(me)
         p=p&u
- print(p)
+ decimal = int(str(p), 2);
+ print(decimal)
