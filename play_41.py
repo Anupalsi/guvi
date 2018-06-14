@@ -1,3 +1,5 @@
+# your code goes here
+# your code goes here
 def power():
     
     inp=input()
