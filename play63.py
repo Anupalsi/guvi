@@ -11,6 +11,6 @@ list=[]
 for i in range(n):
     for j in range(m):
         if aa[i]==bb[j]:
-            list.append(aa[j])
+            list.append(aa[i])
 s=" ".join(list)
 print(s)
