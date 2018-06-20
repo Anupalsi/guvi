@@ -7,5 +7,3 @@ for i in range(m):
 	for j in range(1,n):
 		stri=stri+str(lst[i][j])
 	print(stri)
-	
-	
