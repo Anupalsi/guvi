@@ -11,4 +11,4 @@ for i in range(row):
 a = sorted(a, key=lambda a_entry: a_entry[1]) 
 
 for i in range(row):
-	print(" ".join(a[i]))
+	print(" ".join(a[i])+"\n")
