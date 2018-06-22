@@ -8,7 +8,7 @@ class reversal
     public:
     vector <char> :: iterator itr;
     void push(char);
-    int empty();
+    
     char pop();
     
     
@@ -17,13 +17,7 @@ void reversal::push(char val)
 {
 	s.push_back(val);
 }
-int reversal::empty()
-{
-	if(s.empty())
-	return 0;
-	else
-	return 1;
-}
+
 char reversal::pop()
 { char m;
 //vector <char> :: iterator itr;
