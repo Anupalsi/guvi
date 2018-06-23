@@ -19,4 +19,3 @@ for i in range(0,len(list1)):
 		flag=len(list1[i])
 i=len(l)
 print(i-flag)
-	
