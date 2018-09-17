@@ -1,21 +1,12 @@
-list1=[]
+x=[]
+y=[]
 for i in range(3):
 	a=input()
-	(b,c)=a.split()
-	list1.extend([b,c])
+	b=a.split()
+	x.append(int(b[0]))
+	y.append(int(b[1]))
 	
-flag=0
-x=list1[0]
-y=list1[1]
-for i in range(2,len(list1),2):
-	if x!=list1[i]:
-		flag+=2
-	if y!=list1[i+1]:
-		flag+=1
-		
-if flag==4 and flag==2:
-	print("no")
-elif flag==4 or flag==2:
-	print("yes")
-else:
-	print("no")
+if ((y[1]-y[0]) * (x[2]-x[1])) == ((y[2]-y[1]) * (x[1]-x[0])) :
+	print ('yes')
+else :
+	print('no')
